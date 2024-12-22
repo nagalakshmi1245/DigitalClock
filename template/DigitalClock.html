@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigitalClock</title>
+    <link rel="stylesheet" href="{% static 'css/DigitalClock.css' %}">
+    <script src="{% static 'js/DigitalClock.js' %}" defer></script>
+</head>
+<body>
+    <div id="clock_container">
+        <h1 id="day" class="clock"></h1>
+        <h1 id="date" class="clock"></h1>
+        <h1 id="time" class="clock"></h1>
+    </div>
+    <h1 id="seconds"></h1>
+</body>
+</html>
